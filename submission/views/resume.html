@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JMO</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">JMO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobbies.html">Hobbies</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="projects.html">Project 1</a></li>
+              <li><a class="dropdown-item" href="projects.html">Project 2</a></li>
+              <li><a class="dropdown-item" href="projects.html">Project 3</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="projects.html">Final Project</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <a href="https://github.com/CU-CSCI3308-Fall2025/lab-3-gui-development-juma9363" target="_blank" class="ms-3">
+          <i class="fab fa-github fa-2x"></i> <!-- Icon -->
+        </a>
+      </div>
+    </div>
+  </nav>
+
+<!-- Resume -->
+
+<main class="container mt-5">
+  <div class="text-center">
+    <h2>Juan Marín Olloqui</h2>
+    <p><strong>Location:</strong> Madrid, Spain / Boulder, Colorado</p>
+    <p><strong>Contact:</strong> +1 (720) 786-5663 / +34 607732534</p>
+  </div>
+
+  <!-- Education Section -->
+  <section class="my-4">
+    <h3 class="text-center">Education</h3>
+    <div class="education">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <strong>University of Colorado Boulder</strong>
+          <p>Master’s degree in Computer Science (Exchange Year) <br> Aug 2025-Present</p>
+        </div>
+        <div class="col-md-6">
+          <strong>Universidad Pontificia Comillas – ICAI</strong>
+          <p>Degree in Computer Science and Business Administration <br> Sept 2019 - June 2024</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <strong>Sands Secondary School</strong>
+          <p>Exchange Year, Grade 10 of Secondary School <br> Sept 2016 - June 2017</p>
+        </div>
+        <div class="col-md-6">
+          <strong>Colegio CEU Jesús María</strong>
+          <p>Scientific Baccalaureate <br> Sept 2004 - June 2019</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="my-4">
+    <h3 class="text-center">Experience</h3>
+    <div class="experience">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <strong>Kearney / CICLAB – ICAI</strong>
+          <p><em>Research Summer Internship, Madrid, Spain</em> <br> June 2025 - July 2025</p>
+          <ul>
+            <li>Designed an innovative workspace concept for enterprises, integrating digital infrastructure to support project development and collaboration.</li>
+            <li>Evaluated and prioritized diverse digitalization use cases based on impact, technical feasibility and alignment with enterprise goals.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <strong>NTT Data</strong>
+          <p><em>Business Consulting Internship, Madrid, Spain</em> <br> May 2024 - Aug 2024</p>
+          <ul>
+            <li>Automated key operational processes, reducing manual workload and improving efficiency across client projects.</li>
+            <li>Delivered detailed reports and presentations to clients, showing the impact of automation and optimization efforts.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="my-4">
+    <h3 class="text-center">Certifications</h3>
+    <ul class="text-center" style="list-style-type: none; padding-left: 0;">
+      <li>TOEFL iBT: 101/120 (2025)</li>
+      <li>Communications & Professional Skills Certificate (COMILLAS-ICAI) 2019-2024</li>
+      <li>Cambridge Advanced Certificate (C1) 2017</li>
+    </ul>
+  </section>
+
+  <!-- Languages Section -->
+  <section class="my-4">
+    <h3 class="text-center">Languages</h3>
+    <ul class="text-center" style="list-style-type: none; padding-left: 0;">
+      <li>Spanish: Native</li>
+      <li>English: Proficient (C1)</li>
+      <li>French: Basic</li>
+    </ul>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section class="my-4">
+    <h3 class="text-center">Technical Skills</h3>
+    <ul class="text-center" style="list-style-type: none; padding-left: 0;">
+      <li>Programming languages: C, Matlab</li>
+      <li>Engineering & Design Software: Solid Edge, AutoCAD, CYPE, PSSE Xplore, Ansys Fluent</li>
+      <li>Other tools: Microsoft Office (Word, Excel, PowerPoint)</li>
+    </ul>
+  </section>
+
+  <!-- Volunteering Section -->
+  <section class="my-4">
+    <h3 class="text-center">Volunteering</h3>
+    <div class="text-center">
+      <p><strong>Volunteer - “Centro de día infantil, Cruz Roja”</strong>, Madrid, Spain</p>
+      <p>Dec 2023-Feb 2024</p>
+      <ul class="text-center" style="list-style-type: none; padding-left: 0;">
+        <li>Provided academic support and facilitated recreational and sports activities for children in need.</li>
+      </ul>
+      <a href="../resources/Resume.docx" target="_blank" download="resume.docx">
+  <button>Download PDF</button>
+</a>
+    </div>
+  </section>
+</main>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5" data-bs-theme="dark">
+    <p>Follow me on social media</p>
+    <a href="https://www.linkedin.com" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+    <a href="https://www.facebook.com/" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+  </footer>
+
+  <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

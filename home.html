@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JMO</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">JMO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="submission/views/hobbies.html">Hobbies</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="submission/views/projects.html">Project 1</a></li>
+              <li><a class="dropdown-item" href="submission/views/projects.html">Project 2</a></li>
+              <li><a class="dropdown-item" href="submission/views/projects.html">Project 3</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="submission/views/projects.html">Final Project</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <a href="https://github.com/CU-CSCI3308-Fall2025/lab-3-gui-development-juma9363" target="_blank" class="ms-3">
+          <i class="fab fa-github fa-2x"></i> <!-- Icon -->
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Section -->
+  <div class="container mt-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="submission/resources/img/Me.jpg" alt="Your Image" class="img-fluid rounded-square">
+      </div>
+      <div class="col-md-6">
+        <div class="text-center">
+        <div class="d-flex justify-content-center mt-5">
+          <a href="submission/Calendar/index.html" class="btn btn-primary btn-lg" id="calendar-button" target="_blank">Calendar</a>
+        </div>  
+        <h2>Juan Marín Olloqui</h2>
+        <p>I would describe myself as a highly motivated individual with a passion for technology and innovation. I’m currently pursuing a degree in Computer Engineering and Business Administration, diving deep into the world of algorithms, data analysis, and wireless communications. I have a strong analytical mindset and love tackling challenges that allow me to combine my technical expertise with my business insights. Outside of my studies, I enjoy hobbies like soccer, skiing, hiking and photography, always looking for ways to bring creativity into both my personal and professional life. With a curiosity for continuous learning, I’m on a mission to make a meaningful impact in the tech and business sectors.</p>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+          <a href="submission/views/resume.html" class="btn btn-primary">Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5" data-bs-theme="dark">
+    <p>Follow me on social media</p>
+    <a href="https://www.linkedin.com" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+    <a href="https://www.facebook.com/" class="text-white"><i class="fab fa-facebook fa-lg"></i></a>
+  </footer>
+
+  <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
